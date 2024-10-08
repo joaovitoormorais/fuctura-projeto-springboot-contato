@@ -1,0 +1,8 @@
+package contatofuctura.projeto.fucturaprojetospring.exceptions;
+
+public class ObjectNotFoundException extends RuntimeException {
+
+    public ObjectNotFoundException(String message) {
+        super(message);
+    }
+}
